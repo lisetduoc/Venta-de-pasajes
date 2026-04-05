@@ -11,7 +11,7 @@ Proceso VentaDePasajes
 	//Ciclo
 	
 	Para i<-1 Hasta 5 Hacer
-		Escribir "Compra N° ", i;
+		Escribir "Compra NÂ° ", i;
 		
 		//Entrada de Datos
 		
@@ -26,7 +26,7 @@ Proceso VentaDePasajes
 		Escribir "Indica el destino";
 		Escribir "1. Santiago, precio $10000 CLP";
 		Escribir "2. Valparaiso, precio $8000 CLP";
-		Escribir "3. oncepcion, precio $15000 CLP";
+		Escribir "3. Concepcion, precio $15000 CLP";
 		Leer destino;
 		
 		Segun destino Hacer
@@ -65,7 +65,7 @@ Proceso VentaDePasajes
 		
 		//Descuento estudiante
 		
-		Escribir "¿Usted es estudiante? (s/n)";
+		Escribir "Â¿Usted es estudiante? (s/n)";
 		Leer estudiante;
 		
 		Si estudiante = "s" Entonces
